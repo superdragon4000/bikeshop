@@ -1,0 +1,52 @@
+.about-us {
+  /* display: grid;
+  grid-template: 40em 40em / 1fr 1fr; */
+}
+
+.about-us__top {
+  display: grid;
+  grid-template: repeat(4, 10em) / repeat(4, 1fr);
+}
+
+.about-us__bottom {
+  display: grid;
+  grid-template: repeat(4, 10em) / 50% repeat(6, 1fr);
+}
+
+.about-us-container--manbike {
+  grid-row-start: 2;
+  grid-column-start: 3;
+  width: 21em;
+}
+
+.about-us-container--pair {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  width: 21em;
+}
+
+.about-us-container__img--manbike {
+  grid-row-start: 1;
+  grid-row-end: -1;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-image: url("man-on-bike.webp");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
+.about-us-container__img--pair {
+  grid-row-start: 1;
+  grid-row-end: -1;
+  grid-column-start: 3;
+  grid-column-end: -1;
+  background-image: url("pair.webp");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
+.about-us__p {
+  color: rgb(96, 94, 94);
+  font-size: 15px;
+  line-height: 1.4em;
+}

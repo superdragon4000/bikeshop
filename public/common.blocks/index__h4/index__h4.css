@@ -1,0 +1,15 @@
+.index__h4 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.index__h4--blue {
+  color: rgb(41, 64, 87);
+}
+
+.index__h4--yellow {
+  color: rgb(185, 152, 103);
+}

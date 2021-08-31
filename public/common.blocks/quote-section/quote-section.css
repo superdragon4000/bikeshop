@@ -1,0 +1,33 @@
+.quote-section {
+  display: grid;
+  grid-template: 2em 2em 2em 4em / minmax(30em, 35em);
+  row-gap: 1em;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(41, 64, 87);
+}
+
+.quote-section__q {
+  grid-row-start: 3;
+  grid-row-end: 3;
+  color: #fff;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+}
+
+.quote-section__q::before {
+  content: "";
+}
+
+.quote-section__q::after {
+  content: "";
+}
+
+.quote-section__mark {
+  grid-row-start: 2;
+  color: rgb(185, 152, 103);
+  font-size: 60px;
+  font-family: Arial;
+}

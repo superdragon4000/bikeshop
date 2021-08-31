@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Lobster';
+  font-weight: 400;
+  src: url(Lobster-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  src: url(OpenSans-Regular.ttf);
+}

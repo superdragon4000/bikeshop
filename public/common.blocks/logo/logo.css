@@ -1,0 +1,18 @@
+.logo {
+  text-decoration: none;
+}
+
+.logo__left {
+  font-family: 'Lobster';
+  font-weight: 400;
+  font-size: 55px;
+  color: rgb(41, 64, 87);
+}
+
+.logo__right {
+  font-size: 14px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgb(185, 152, 103);
+  margin-left: 5px;
+}

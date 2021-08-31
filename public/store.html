@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="common.blocks/body/body.css">
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
+  <link rel="stylesheet" href="common.blocks/logo/logo.css">
+  <link rel="stylesheet" href="common.blocks/index__h4/index__h4.css">
+  <link rel="stylesheet" href="common.blocks/index__btn/index__btn.css">
+  <link rel="stylesheet" href="common.blocks/header/header.css">
+  <link rel="stylesheet" href="common.blocks/header-cart-content/header-cart-content.css">
+  <link rel="stylesheet" href="common.blocks/main/main.css">
+  <link rel="stylesheet" href="common.blocks/main-store/main-store.css">
+  <link rel="stylesheet" href="common.blocks/store-content/store-content.css">
+  <link rel="stylesheet" href="common.blocks/footer/footer.css">
+  <script src="project.js"></script>
+  <script src="basket.js"></script>
+  <script src="common.blocks/store-content/store-content.js"></script>
+  <script src="common.blocks/header-cart-content/header-cart-content.js"></script>
+  <title>Магазин | Bike Shop</title>
+</head>
+<body class="body">
+  <header class="header">
+    <a class="logo header-logo" href="index.html"><span class="logo__left">Слава</span><span class="logo__right">велосипеды</span></a>
+    <nav class="header-nav">
+      <a class="header-nav__a" href="index.html">Главная</a>
+      <a class="header-nav__a" href="store.html">Магазин</a>
+      <a class="header-nav__a" href="#">Блог</a>
+      <a class="header-nav__a" href="#">FAQ</a>
+      <a class="header-nav__a" href="#">Контакты</a>
+    </nav>
+    <div class="header-cart">
+      <div class="header-cart__btn">
+        <div class="header-cart__box" id="header-cart__btn">
+          <div class="header-cart__open">
+            <img class="header-cart__img" src="common.blocks/header/cart_bag.svg" alt="">
+            <span class="header-cart__counter" id="header-counter">0</span>
+          </div>
+        </div>
+        <span class="header-cart__text">Корзина</span>
+      </div>
+      <div class="header-cart-content header-cart-content--disabled">
+        <div class="header-cart-content-head">
+          <input class="header-cart-content-head__btn--close" type="button" value="">
+          <h4 class="header-cart-content-head__h4">Корзина</h4>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main-store">
+    <h2 class="store__h2">Наша коллекция</h2>
+    <div class="store-content">
+    </div>
+  </main>
+  <footer class="footer">
+    <section class="footer-socials">
+      <a href="#" title="Vk"><img src="common.blocks/footer/vk.webp" title="Vk" alt=""></a>
+      <a href="#" title="facebook"><img src="common.blocks/footer/facebook.webp" title="facebook" alt=""></a>
+      <a href="#" title="twitter"><img src="common.blocks/footer/twitter.webp" title="twitter" alt=""></a>
+      <a href="#" title="youtube"><img src="common.blocks/footer/youtube.webp" title="youtube" alt=""></a>
+      <a href="#" title="pinterest"><img src="common.blocks/footer/pinterest.webp" title="pinterest" alt=""></a>
+      <a href="#" title="instagram"><img src="common.blocks/footer/instagram.webp" title="instagram" alt=""></a>
+    </section>
+    <section class="footer-subscribe">
+      <h5 class="footer-subscribe__h5">Подпишитесь на новости</h5>
+      <input class="footer-subscribe__input" type="email" name="Subscribe" placeholder="Добавьте эл. почту*" required>
+      <input class="index__btn index__btn--yellow footer-subscribe__btn" type="button" value="Ok">
+      <p class="footer-copyright">©2023 Магазин велосипедов «Слава». Сайт создан на Wix.com</p>
+    </section>
+  </footer>
+</body>
+</html>

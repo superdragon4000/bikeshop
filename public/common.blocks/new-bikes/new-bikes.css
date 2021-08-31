@@ -1,0 +1,26 @@
+.new-bikes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 45em;
+  padding: 5em 0;
+}
+
+.new-bikes__img {
+  width: 325px;
+  height: auto;
+}
+
+.new-bikes-img {
+  margin: 2em 0;
+}
+
+@media screen and (max-width: 992px) {
+  .new-bikes {
+    margin-top: 20em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+}
